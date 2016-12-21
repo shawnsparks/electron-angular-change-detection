@@ -1,0 +1,22 @@
+<h2>Values</h2>
+<p>Add values</p>
+<form>
+    <label for="value">New Value</label>
+    <input type=text name="value" [(ngModel)]="newValue">
+    <input type="submit" (click)="addValue()" value="Add Value">
+</form>
+
+<table>
+    <thead>
+        <tr>
+            <th>Value</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let value of values">
+            <td>{{value}}</td>
+            <td><button (click)="removeValue(value)">Remove</button></td>
+        </tr>
+    </tbody>
+</table>

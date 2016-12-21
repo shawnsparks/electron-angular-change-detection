@@ -1,0 +1,32 @@
+{
+  "name": "electron-angular-change-detection",
+  "version": "1.0.0",
+  "description": "Electron app to demonstrate issue with angular change detection",
+  "author": "Shawn Sparks",
+  "license": "MIT",
+  "scripts": {
+    "start": "electron ./dist/app/index.js",
+    "build": "rm -fr ./dist && webpack --colors"
+  },
+  "dependencies": {
+    "@angular/common": "^2.1.2",
+    "@angular/compiler": "^2.1.2",
+    "@angular/core": "^2.1.2",
+    "@angular/forms": "^2.1.2",
+    "@angular/platform-browser": "^2.1.2",
+    "@angular/platform-browser-dynamic": "^2.1.2",
+    "reflect-metadata": "^0.1.8",
+    "rxjs": "^5.0.1",
+    "zone.js": "^0.7.2"
+  },
+  "devDependencies": {
+    "@types/core-js": "^0.9.34",
+    "@types/electron": "^1.4.29",
+    "@types/node": "^4.0.30",
+    "copy-webpack-plugin": "^4.0.0",
+    "electron": "^1.4.8",
+    "ts-loader": "^0.9.5",
+    "typescript": "^2.0.6",
+    "webpack": "^1.13.3"
+  }
+}

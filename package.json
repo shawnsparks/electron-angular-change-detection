@@ -24,7 +24,7 @@
     "@types/electron": "^1.4.29",
     "@types/node": "^4.0.30",
     "copy-webpack-plugin": "^4.0.0",
-    "electron": "^1.4.8",
+    "electron": "^9.1.0",
     "ts-loader": "^0.9.5",
     "typescript": "^2.0.6",
     "webpack": "^1.13.3"
